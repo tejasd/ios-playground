@@ -7,78 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9033CE951C78F34900D8FDE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CE941C78F34900D8FDE1 /* main.m */; };
-		9033CE981C78F34900D8FDE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CE971C78F34900D8FDE1 /* AppDelegate.m */; };
-		9033CE9B1C78F34900D8FDE1 /* iOS_Playground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9033CE991C78F34900D8FDE1 /* iOS_Playground.xcdatamodeld */; };
-		9033CE9E1C78F34900D8FDE1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CE9D1C78F34900D8FDE1 /* MasterViewController.m */; };
-		9033CEA11C78F34900D8FDE1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEA01C78F34900D8FDE1 /* DetailViewController.m */; };
-		9033CEA41C78F34900D8FDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033CEA21C78F34900D8FDE1 /* Main.storyboard */; };
-		9033CEA61C78F34900D8FDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9033CEA51C78F34900D8FDE1 /* Assets.xcassets */; };
-		9033CEA91C78F34900D8FDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033CEA71C78F34900D8FDE1 /* LaunchScreen.storyboard */; };
-		9033CEB41C78F34900D8FDE1 /* iOS_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEB31C78F34900D8FDE1 /* iOS_PlaygroundTests.m */; };
-		9033CEBF1C78F34900D8FDE1 /* iOS_PlaygroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEBE1C78F34900D8FDE1 /* iOS_PlaygroundUITests.m */; };
-		A5D7E99429271B4908586FE7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3171E327043C4FE99E1D5859 /* Pods.framework */; };
+		766F40E3F1A8C65074F5C7B5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EF238F7E885A3C24F76D9 /* Pods.framework */; };
+		9033CEDA1C79022900D8FDE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CED91C79022900D8FDE1 /* main.m */; };
+		9033CEDD1C79022900D8FDE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEDC1C79022900D8FDE1 /* AppDelegate.m */; };
+		9033CEE01C79022900D8FDE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEDF1C79022900D8FDE1 /* ViewController.m */; };
+		9033CEE31C79022900D8FDE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033CEE11C79022900D8FDE1 /* Main.storyboard */; };
+		9033CEE51C79022900D8FDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9033CEE41C79022900D8FDE1 /* Assets.xcassets */; };
+		9033CEE81C79022900D8FDE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033CEE61C79022900D8FDE1 /* LaunchScreen.storyboard */; };
+		9033CEF31C79022900D8FDE1 /* iOS_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEF21C79022900D8FDE1 /* iOS_PlaygroundTests.m */; };
+		9033CEFE1C79022900D8FDE1 /* iOS_PlaygroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEFD1C79022900D8FDE1 /* iOS_PlaygroundUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9033CEB01C78F34900D8FDE1 /* PBXContainerItemProxy */ = {
+		9033CEEF1C79022900D8FDE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9033CE881C78F34900D8FDE1 /* Project object */;
+			containerPortal = 9033CECD1C79022900D8FDE1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9033CE8F1C78F34900D8FDE1;
+			remoteGlobalIDString = 9033CED41C79022900D8FDE1;
 			remoteInfo = "iOS Playground";
 		};
-		9033CEBB1C78F34900D8FDE1 /* PBXContainerItemProxy */ = {
+		9033CEFA1C79022900D8FDE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9033CE881C78F34900D8FDE1 /* Project object */;
+			containerPortal = 9033CECD1C79022900D8FDE1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9033CE8F1C78F34900D8FDE1;
+			remoteGlobalIDString = 9033CED41C79022900D8FDE1;
 			remoteInfo = "iOS Playground";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3171E327043C4FE99E1D5859 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BBE2C6765482E37888E2B61 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		9033CE901C78F34900D8FDE1 /* iOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9033CE941C78F34900D8FDE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9033CE961C78F34900D8FDE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9033CE971C78F34900D8FDE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9033CE9A1C78F34900D8FDE1 /* iOS_Playground.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Playground.xcdatamodel; sourceTree = "<group>"; };
-		9033CE9C1C78F34900D8FDE1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		9033CE9D1C78F34900D8FDE1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9033CE9F1C78F34900D8FDE1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		9033CEA01C78F34900D8FDE1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		9033CEA31C78F34900D8FDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9033CEA51C78F34900D8FDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9033CEA81C78F34900D8FDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9033CEAA1C78F34900D8FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9033CEAF1C78F34900D8FDE1 /* iOS PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9033CEB31C78F34900D8FDE1 /* iOS_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PlaygroundTests.m; sourceTree = "<group>"; };
-		9033CEB51C78F34900D8FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9033CEBA1C78F34900D8FDE1 /* iOS PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9033CEBE1C78F34900D8FDE1 /* iOS_PlaygroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PlaygroundUITests.m; sourceTree = "<group>"; };
-		9033CEC01C78F34900D8FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6475D5B83CE53BFE9454A6F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9033CED51C79022900D8FDE1 /* iOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9033CED91C79022900D8FDE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9033CEDB1C79022900D8FDE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9033CEDC1C79022900D8FDE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9033CEDE1C79022900D8FDE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9033CEDF1C79022900D8FDE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9033CEE21C79022900D8FDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9033CEE41C79022900D8FDE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9033CEE71C79022900D8FDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9033CEE91C79022900D8FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9033CEEE1C79022900D8FDE1 /* iOS PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9033CEF21C79022900D8FDE1 /* iOS_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PlaygroundTests.m; sourceTree = "<group>"; };
+		9033CEF41C79022900D8FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9033CEF91C79022900D8FDE1 /* iOS PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9033CEFD1C79022900D8FDE1 /* iOS_PlaygroundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PlaygroundUITests.m; sourceTree = "<group>"; };
+		9033CEFF1C79022900D8FDE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55883A0662A1D14D76986A0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D532EA2F0C75F841B2858457 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F21EF238F7E885A3C24F76D9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9033CE8D1C78F34900D8FDE1 /* Frameworks */ = {
+		9033CED21C79022900D8FDE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D7E99429271B4908586FE7 /* Pods.framework in Frameworks */,
+				766F40E3F1A8C65074F5C7B5 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9033CEAC1C78F34900D8FDE1 /* Frameworks */ = {
+		9033CEEB1C79022900D8FDE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9033CEB71C78F34900D8FDE1 /* Frameworks */ = {
+		9033CEF61C79022900D8FDE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,86 +83,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02AA9E597C02B45C1A60946C /* Frameworks */ = {
+		38D3031D9ACCD286104595B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3171E327043C4FE99E1D5859 /* Pods.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		28CA4621CB479F8619B235D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4BBE2C6765482E37888E2B61 /* Pods.debug.xcconfig */,
-				F6475D5B83CE53BFE9454A6F /* Pods.release.xcconfig */,
+				A55883A0662A1D14D76986A0 /* Pods.debug.xcconfig */,
+				D532EA2F0C75F841B2858457 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9033CE871C78F34900D8FDE1 = {
+		55A0585D139057C6A23F9831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9033CE921C78F34900D8FDE1 /* iOS Playground */,
-				9033CEB21C78F34900D8FDE1 /* iOS PlaygroundTests */,
-				9033CEBD1C78F34900D8FDE1 /* iOS PlaygroundUITests */,
-				9033CE911C78F34900D8FDE1 /* Products */,
-				28CA4621CB479F8619B235D6 /* Pods */,
-				02AA9E597C02B45C1A60946C /* Frameworks */,
+				F21EF238F7E885A3C24F76D9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9033CECC1C79022900D8FDE1 = {
+			isa = PBXGroup;
+			children = (
+				9033CED71C79022900D8FDE1 /* iOS Playground */,
+				9033CEF11C79022900D8FDE1 /* iOS PlaygroundTests */,
+				9033CEFC1C79022900D8FDE1 /* iOS PlaygroundUITests */,
+				9033CED61C79022900D8FDE1 /* Products */,
+				38D3031D9ACCD286104595B0 /* Pods */,
+				55A0585D139057C6A23F9831 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9033CE911C78F34900D8FDE1 /* Products */ = {
+		9033CED61C79022900D8FDE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9033CE901C78F34900D8FDE1 /* iOS Playground.app */,
-				9033CEAF1C78F34900D8FDE1 /* iOS PlaygroundTests.xctest */,
-				9033CEBA1C78F34900D8FDE1 /* iOS PlaygroundUITests.xctest */,
+				9033CED51C79022900D8FDE1 /* iOS Playground.app */,
+				9033CEEE1C79022900D8FDE1 /* iOS PlaygroundTests.xctest */,
+				9033CEF91C79022900D8FDE1 /* iOS PlaygroundUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9033CE921C78F34900D8FDE1 /* iOS Playground */ = {
+		9033CED71C79022900D8FDE1 /* iOS Playground */ = {
 			isa = PBXGroup;
 			children = (
-				9033CE961C78F34900D8FDE1 /* AppDelegate.h */,
-				9033CE971C78F34900D8FDE1 /* AppDelegate.m */,
-				9033CE9C1C78F34900D8FDE1 /* MasterViewController.h */,
-				9033CE9D1C78F34900D8FDE1 /* MasterViewController.m */,
-				9033CE9F1C78F34900D8FDE1 /* DetailViewController.h */,
-				9033CEA01C78F34900D8FDE1 /* DetailViewController.m */,
-				9033CEA21C78F34900D8FDE1 /* Main.storyboard */,
-				9033CEA51C78F34900D8FDE1 /* Assets.xcassets */,
-				9033CEA71C78F34900D8FDE1 /* LaunchScreen.storyboard */,
-				9033CEAA1C78F34900D8FDE1 /* Info.plist */,
-				9033CE991C78F34900D8FDE1 /* iOS_Playground.xcdatamodeld */,
-				9033CE931C78F34900D8FDE1 /* Supporting Files */,
+				9033CEDB1C79022900D8FDE1 /* AppDelegate.h */,
+				9033CEDC1C79022900D8FDE1 /* AppDelegate.m */,
+				9033CEDE1C79022900D8FDE1 /* ViewController.h */,
+				9033CEDF1C79022900D8FDE1 /* ViewController.m */,
+				9033CEE11C79022900D8FDE1 /* Main.storyboard */,
+				9033CEE41C79022900D8FDE1 /* Assets.xcassets */,
+				9033CEE61C79022900D8FDE1 /* LaunchScreen.storyboard */,
+				9033CEE91C79022900D8FDE1 /* Info.plist */,
+				9033CED81C79022900D8FDE1 /* Supporting Files */,
 			);
 			path = "iOS Playground";
 			sourceTree = "<group>";
 		};
-		9033CE931C78F34900D8FDE1 /* Supporting Files */ = {
+		9033CED81C79022900D8FDE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9033CE941C78F34900D8FDE1 /* main.m */,
+				9033CED91C79022900D8FDE1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9033CEB21C78F34900D8FDE1 /* iOS PlaygroundTests */ = {
+		9033CEF11C79022900D8FDE1 /* iOS PlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				9033CEB31C78F34900D8FDE1 /* iOS_PlaygroundTests.m */,
-				9033CEB51C78F34900D8FDE1 /* Info.plist */,
+				9033CEF21C79022900D8FDE1 /* iOS_PlaygroundTests.m */,
+				9033CEF41C79022900D8FDE1 /* Info.plist */,
 			);
 			path = "iOS PlaygroundTests";
 			sourceTree = "<group>";
 		};
-		9033CEBD1C78F34900D8FDE1 /* iOS PlaygroundUITests */ = {
+		9033CEFC1C79022900D8FDE1 /* iOS PlaygroundUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9033CEBE1C78F34900D8FDE1 /* iOS_PlaygroundUITests.m */,
-				9033CEC01C78F34900D8FDE1 /* Info.plist */,
+				9033CEFD1C79022900D8FDE1 /* iOS_PlaygroundUITests.m */,
+				9033CEFF1C79022900D8FDE1 /* Info.plist */,
 			);
 			path = "iOS PlaygroundUITests";
 			sourceTree = "<group>";
@@ -175,16 +167,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9033CE8F1C78F34900D8FDE1 /* iOS Playground */ = {
+		9033CED41C79022900D8FDE1 /* iOS Playground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9033CEC31C78F34900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS Playground" */;
+			buildConfigurationList = 9033CF021C79022900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS Playground" */;
 			buildPhases = (
-				7944A550D4E9EC089283DE73 /* Check Pods Manifest.lock */,
-				9033CE8C1C78F34900D8FDE1 /* Sources */,
-				9033CE8D1C78F34900D8FDE1 /* Frameworks */,
-				9033CE8E1C78F34900D8FDE1 /* Resources */,
-				3153D5C527D1646939245599 /* Embed Pods Frameworks */,
-				7E923EDC4E4DEB36524F1B32 /* Copy Pods Resources */,
+				35D5D9F1163733971ADDD383 /* Check Pods Manifest.lock */,
+				9033CED11C79022900D8FDE1 /* Sources */,
+				9033CED21C79022900D8FDE1 /* Frameworks */,
+				9033CED31C79022900D8FDE1 /* Resources */,
+				2D4EF59B19956D277FEE8BAF /* Embed Pods Frameworks */,
+				6E428B5074C770298BAB0E77 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,68 +184,68 @@
 			);
 			name = "iOS Playground";
 			productName = "iOS Playground";
-			productReference = 9033CE901C78F34900D8FDE1 /* iOS Playground.app */;
+			productReference = 9033CED51C79022900D8FDE1 /* iOS Playground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9033CEAE1C78F34900D8FDE1 /* iOS PlaygroundTests */ = {
+		9033CEED1C79022900D8FDE1 /* iOS PlaygroundTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9033CEC61C78F34900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundTests" */;
+			buildConfigurationList = 9033CF051C79022900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundTests" */;
 			buildPhases = (
-				9033CEAB1C78F34900D8FDE1 /* Sources */,
-				9033CEAC1C78F34900D8FDE1 /* Frameworks */,
-				9033CEAD1C78F34900D8FDE1 /* Resources */,
+				9033CEEA1C79022900D8FDE1 /* Sources */,
+				9033CEEB1C79022900D8FDE1 /* Frameworks */,
+				9033CEEC1C79022900D8FDE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9033CEB11C78F34900D8FDE1 /* PBXTargetDependency */,
+				9033CEF01C79022900D8FDE1 /* PBXTargetDependency */,
 			);
 			name = "iOS PlaygroundTests";
 			productName = "iOS PlaygroundTests";
-			productReference = 9033CEAF1C78F34900D8FDE1 /* iOS PlaygroundTests.xctest */;
+			productReference = 9033CEEE1C79022900D8FDE1 /* iOS PlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9033CEB91C78F34900D8FDE1 /* iOS PlaygroundUITests */ = {
+		9033CEF81C79022900D8FDE1 /* iOS PlaygroundUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9033CEC91C78F34900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundUITests" */;
+			buildConfigurationList = 9033CF081C79022900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundUITests" */;
 			buildPhases = (
-				9033CEB61C78F34900D8FDE1 /* Sources */,
-				9033CEB71C78F34900D8FDE1 /* Frameworks */,
-				9033CEB81C78F34900D8FDE1 /* Resources */,
+				9033CEF51C79022900D8FDE1 /* Sources */,
+				9033CEF61C79022900D8FDE1 /* Frameworks */,
+				9033CEF71C79022900D8FDE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9033CEBC1C78F34900D8FDE1 /* PBXTargetDependency */,
+				9033CEFB1C79022900D8FDE1 /* PBXTargetDependency */,
 			);
 			name = "iOS PlaygroundUITests";
 			productName = "iOS PlaygroundUITests";
-			productReference = 9033CEBA1C78F34900D8FDE1 /* iOS PlaygroundUITests.xctest */;
+			productReference = 9033CEF91C79022900D8FDE1 /* iOS PlaygroundUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9033CE881C78F34900D8FDE1 /* Project object */ = {
+		9033CECD1C79022900D8FDE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Tejas Deshpande";
 				TargetAttributes = {
-					9033CE8F1C78F34900D8FDE1 = {
+					9033CED41C79022900D8FDE1 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
-					9033CEAE1C78F34900D8FDE1 = {
+					9033CEED1C79022900D8FDE1 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 9033CE8F1C78F34900D8FDE1;
+						TestTargetID = 9033CED41C79022900D8FDE1;
 					};
-					9033CEB91C78F34900D8FDE1 = {
+					9033CEF81C79022900D8FDE1 = {
 						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = 9033CE8F1C78F34900D8FDE1;
+						TestTargetID = 9033CED41C79022900D8FDE1;
 					};
 				};
 			};
-			buildConfigurationList = 9033CE8B1C78F34900D8FDE1 /* Build configuration list for PBXProject "iOS Playground" */;
+			buildConfigurationList = 9033CED01C79022900D8FDE1 /* Build configuration list for PBXProject "iOS Playground" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,37 +253,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9033CE871C78F34900D8FDE1;
-			productRefGroup = 9033CE911C78F34900D8FDE1 /* Products */;
+			mainGroup = 9033CECC1C79022900D8FDE1;
+			productRefGroup = 9033CED61C79022900D8FDE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9033CE8F1C78F34900D8FDE1 /* iOS Playground */,
-				9033CEAE1C78F34900D8FDE1 /* iOS PlaygroundTests */,
-				9033CEB91C78F34900D8FDE1 /* iOS PlaygroundUITests */,
+				9033CED41C79022900D8FDE1 /* iOS Playground */,
+				9033CEED1C79022900D8FDE1 /* iOS PlaygroundTests */,
+				9033CEF81C79022900D8FDE1 /* iOS PlaygroundUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9033CE8E1C78F34900D8FDE1 /* Resources */ = {
+		9033CED31C79022900D8FDE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9033CEA91C78F34900D8FDE1 /* LaunchScreen.storyboard in Resources */,
-				9033CEA61C78F34900D8FDE1 /* Assets.xcassets in Resources */,
-				9033CEA41C78F34900D8FDE1 /* Main.storyboard in Resources */,
+				9033CEE81C79022900D8FDE1 /* LaunchScreen.storyboard in Resources */,
+				9033CEE51C79022900D8FDE1 /* Assets.xcassets in Resources */,
+				9033CEE31C79022900D8FDE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9033CEAD1C78F34900D8FDE1 /* Resources */ = {
+		9033CEEC1C79022900D8FDE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9033CEB81C78F34900D8FDE1 /* Resources */ = {
+		9033CEF71C79022900D8FDE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,7 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3153D5C527D1646939245599 /* Embed Pods Frameworks */ = {
+		2D4EF59B19956D277FEE8BAF /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,7 +308,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7944A550D4E9EC089283DE73 /* Check Pods Manifest.lock */ = {
+		35D5D9F1163733971ADDD383 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,7 +323,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7E923EDC4E4DEB36524F1B32 /* Copy Pods Resources */ = {
+		6E428B5074C770298BAB0E77 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,62 +341,60 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9033CE8C1C78F34900D8FDE1 /* Sources */ = {
+		9033CED11C79022900D8FDE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9033CEA11C78F34900D8FDE1 /* DetailViewController.m in Sources */,
-				9033CE9E1C78F34900D8FDE1 /* MasterViewController.m in Sources */,
-				9033CE981C78F34900D8FDE1 /* AppDelegate.m in Sources */,
-				9033CE9B1C78F34900D8FDE1 /* iOS_Playground.xcdatamodeld in Sources */,
-				9033CE951C78F34900D8FDE1 /* main.m in Sources */,
+				9033CEE01C79022900D8FDE1 /* ViewController.m in Sources */,
+				9033CEDD1C79022900D8FDE1 /* AppDelegate.m in Sources */,
+				9033CEDA1C79022900D8FDE1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9033CEAB1C78F34900D8FDE1 /* Sources */ = {
+		9033CEEA1C79022900D8FDE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9033CEB41C78F34900D8FDE1 /* iOS_PlaygroundTests.m in Sources */,
+				9033CEF31C79022900D8FDE1 /* iOS_PlaygroundTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9033CEB61C78F34900D8FDE1 /* Sources */ = {
+		9033CEF51C79022900D8FDE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9033CEBF1C78F34900D8FDE1 /* iOS_PlaygroundUITests.m in Sources */,
+				9033CEFE1C79022900D8FDE1 /* iOS_PlaygroundUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9033CEB11C78F34900D8FDE1 /* PBXTargetDependency */ = {
+		9033CEF01C79022900D8FDE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9033CE8F1C78F34900D8FDE1 /* iOS Playground */;
-			targetProxy = 9033CEB01C78F34900D8FDE1 /* PBXContainerItemProxy */;
+			target = 9033CED41C79022900D8FDE1 /* iOS Playground */;
+			targetProxy = 9033CEEF1C79022900D8FDE1 /* PBXContainerItemProxy */;
 		};
-		9033CEBC1C78F34900D8FDE1 /* PBXTargetDependency */ = {
+		9033CEFB1C79022900D8FDE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9033CE8F1C78F34900D8FDE1 /* iOS Playground */;
-			targetProxy = 9033CEBB1C78F34900D8FDE1 /* PBXContainerItemProxy */;
+			target = 9033CED41C79022900D8FDE1 /* iOS Playground */;
+			targetProxy = 9033CEFA1C79022900D8FDE1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9033CEA21C78F34900D8FDE1 /* Main.storyboard */ = {
+		9033CEE11C79022900D8FDE1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9033CEA31C78F34900D8FDE1 /* Base */,
+				9033CEE21C79022900D8FDE1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9033CEA71C78F34900D8FDE1 /* LaunchScreen.storyboard */ = {
+		9033CEE61C79022900D8FDE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9033CEA81C78F34900D8FDE1 /* Base */,
+				9033CEE71C79022900D8FDE1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -412,7 +402,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9033CEC11C78F34900D8FDE1 /* Debug */ = {
+		9033CF001C79022900D8FDE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -456,7 +446,7 @@
 			};
 			name = Debug;
 		};
-		9033CEC21C78F34900D8FDE1 /* Release */ = {
+		9033CF011C79022900D8FDE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -494,9 +484,9 @@
 			};
 			name = Release;
 		};
-		9033CEC41C78F34900D8FDE1 /* Debug */ = {
+		9033CF031C79022900D8FDE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BBE2C6765482E37888E2B61 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A55883A0662A1D14D76986A0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Playground/Info.plist";
@@ -506,9 +496,9 @@
 			};
 			name = Debug;
 		};
-		9033CEC51C78F34900D8FDE1 /* Release */ = {
+		9033CF041C79022900D8FDE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6475D5B83CE53BFE9454A6F /* Pods.release.xcconfig */;
+			baseConfigurationReference = D532EA2F0C75F841B2858457 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Playground/Info.plist";
@@ -518,7 +508,7 @@
 			};
 			name = Release;
 		};
-		9033CEC71C78F34900D8FDE1 /* Debug */ = {
+		9033CF061C79022900D8FDE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		9033CEC81C78F34900D8FDE1 /* Release */ = {
+		9033CF071C79022900D8FDE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,7 +532,7 @@
 			};
 			name = Release;
 		};
-		9033CECA1C78F34900D8FDE1 /* Debug */ = {
+		9033CF091C79022900D8FDE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "iOS PlaygroundUITests/Info.plist";
@@ -554,7 +544,7 @@
 			};
 			name = Debug;
 		};
-		9033CECB1C78F34900D8FDE1 /* Release */ = {
+		9033CF0A1C79022900D8FDE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "iOS PlaygroundUITests/Info.plist";
@@ -569,56 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9033CE8B1C78F34900D8FDE1 /* Build configuration list for PBXProject "iOS Playground" */ = {
+		9033CED01C79022900D8FDE1 /* Build configuration list for PBXProject "iOS Playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9033CEC11C78F34900D8FDE1 /* Debug */,
-				9033CEC21C78F34900D8FDE1 /* Release */,
+				9033CF001C79022900D8FDE1 /* Debug */,
+				9033CF011C79022900D8FDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9033CEC31C78F34900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS Playground" */ = {
+		9033CF021C79022900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS Playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9033CEC41C78F34900D8FDE1 /* Debug */,
-				9033CEC51C78F34900D8FDE1 /* Release */,
+				9033CF031C79022900D8FDE1 /* Debug */,
+				9033CF041C79022900D8FDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9033CEC61C78F34900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundTests" */ = {
+		9033CF051C79022900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9033CEC71C78F34900D8FDE1 /* Debug */,
-				9033CEC81C78F34900D8FDE1 /* Release */,
+				9033CF061C79022900D8FDE1 /* Debug */,
+				9033CF071C79022900D8FDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9033CEC91C78F34900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundUITests" */ = {
+		9033CF081C79022900D8FDE1 /* Build configuration list for PBXNativeTarget "iOS PlaygroundUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9033CECA1C78F34900D8FDE1 /* Debug */,
-				9033CECB1C78F34900D8FDE1 /* Release */,
+				9033CF091C79022900D8FDE1 /* Debug */,
+				9033CF0A1C79022900D8FDE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9033CE991C78F34900D8FDE1 /* iOS_Playground.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9033CE9A1C78F34900D8FDE1 /* iOS_Playground.xcdatamodel */,
-			);
-			currentVersion = 9033CE9A1C78F34900D8FDE1 /* iOS_Playground.xcdatamodel */;
-			path = iOS_Playground.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 9033CE881C78F34900D8FDE1 /* Project object */;
+	rootObject = 9033CECD1C79022900D8FDE1 /* Project object */;
 }
