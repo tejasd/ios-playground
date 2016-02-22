@@ -8,5 +8,4 @@ create my own playground app that would serve as my personal notes on how
 to accomplish certain tasks with iOS/react-native/Cocoapods/Static Libraries/Swift
 you name it.
 
-### Future Work
-- Create a github.io page for writing blog posts about how to accomplish things
+##### [Blog posts about some of the things accomplished here](http://tejasd.co/ios-playground/)
