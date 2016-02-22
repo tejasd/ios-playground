@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ReactNativeViewController.h"
+#import "ios_playground-Swift.h"
 
 @interface ViewController ()
 
@@ -32,7 +33,9 @@
 
 
 - (IBAction)showNativeView:(id)sender {
-    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"NativeStoryboard" bundle:nil];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"nativeViewController"];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

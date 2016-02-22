@@ -16,6 +16,8 @@
 		903F0C0A1C7AC00600F7A38F /* ios_playgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 903F0C091C7AC00600F7A38F /* ios_playgroundTests.m */; };
 		903F0C151C7AC00600F7A38F /* ios_playgroundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 903F0C141C7AC00600F7A38F /* ios_playgroundUITests.m */; };
 		903F0C241C7AC1D600F7A38F /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903F0C231C7AC1D600F7A38F /* ReactNativeViewController.m */; };
+		903F0C2A1C7AC40500F7A38F /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F0C291C7AC40500F7A38F /* NativeViewController.swift */; };
+		904995A41C7AC9B400DBB19C /* NativeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904995A31C7AC9B400DBB19C /* NativeStoryboard.storyboard */; };
 		F1C4FC23D35451AC6D2B1C3B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4D653250B90C9831415BB /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,9 @@
 		903F0C161C7AC00600F7A38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		903F0C221C7AC1D600F7A38F /* ReactNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNativeViewController.h; sourceTree = "<group>"; };
 		903F0C231C7AC1D600F7A38F /* ReactNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewController.m; sourceTree = "<group>"; };
+		903F0C281C7AC40500F7A38F /* ios-playground-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-playground-Bridging-Header.h"; sourceTree = "<group>"; };
+		903F0C291C7AC40500F7A38F /* NativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NativeViewController.swift; path = swift/NativeViewController.swift; sourceTree = "<group>"; };
+		904995A31C7AC9B400DBB19C /* NativeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NativeStoryboard.storyboard; sourceTree = "<group>"; };
 		C18B5C0ADB2F2A571100FDB2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,16 +134,19 @@
 			isa = PBXGroup;
 			children = (
 				903F0BF21C7AC00600F7A38F /* AppDelegate.h */,
+				903F0C2C1C7AC41200F7A38F /* swift */,
 				903F0BF31C7AC00600F7A38F /* AppDelegate.m */,
 				903F0BF51C7AC00600F7A38F /* ViewController.h */,
 				903F0BF61C7AC00600F7A38F /* ViewController.m */,
 				903F0BF81C7AC00600F7A38F /* Main.storyboard */,
+				904995A31C7AC9B400DBB19C /* NativeStoryboard.storyboard */,
 				903F0C221C7AC1D600F7A38F /* ReactNativeViewController.h */,
 				903F0C231C7AC1D600F7A38F /* ReactNativeViewController.m */,
 				903F0BFB1C7AC00600F7A38F /* Assets.xcassets */,
 				903F0BFD1C7AC00600F7A38F /* LaunchScreen.storyboard */,
 				903F0C001C7AC00600F7A38F /* Info.plist */,
 				903F0BEF1C7AC00600F7A38F /* Supporting Files */,
+				903F0C281C7AC40500F7A38F /* ios-playground-Bridging-Header.h */,
 			);
 			path = "ios-playground";
 			sourceTree = "<group>";
@@ -167,6 +175,14 @@
 				903F0C161C7AC00600F7A38F /* Info.plist */,
 			);
 			path = "ios-playgroundUITests";
+			sourceTree = "<group>";
+		};
+		903F0C2C1C7AC41200F7A38F /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				903F0C291C7AC40500F7A38F /* NativeViewController.swift */,
+			);
+			name = swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +293,7 @@
 			files = (
 				903F0BFF1C7AC00600F7A38F /* LaunchScreen.storyboard in Resources */,
 				903F0BFC1C7AC00600F7A38F /* Assets.xcassets in Resources */,
+				904995A41C7AC9B400DBB19C /* NativeStoryboard.storyboard in Resources */,
 				903F0BFA1C7AC00600F7A38F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903F0C2A1C7AC40500F7A38F /* NativeViewController.swift in Sources */,
 				903F0BF71C7AC00600F7A38F /* ViewController.m in Sources */,
 				903F0BF41C7AC00600F7A38F /* AppDelegate.m in Sources */,
 				903F0BF11C7AC00600F7A38F /* main.m in Sources */,
@@ -495,10 +513,15 @@
 			baseConfigurationReference = C18B5C0ADB2F2A571100FDB2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "ios-playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tejasd.ios-playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-playground/ios-playground-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -507,10 +530,14 @@
 			baseConfigurationReference = 14CA2319BFD5AED362F46570 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "ios-playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tejasd.ios-playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-playground/ios-playground-Bridging-Header.h";
 			};
 			name = Release;
 		};
