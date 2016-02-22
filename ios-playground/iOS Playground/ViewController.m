@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ReactNativeContainerViewController.h"
 
 @interface ViewController ()
 
@@ -24,4 +25,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+- (IBAction)showReactView:(id)sender {
+    ReactNativeContainerViewController *reactView = [ReactNativeContainerViewController new];
+    [self presentViewController:reactView animated:YES completion:nil];
+}
 @end

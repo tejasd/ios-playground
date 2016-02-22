@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		766F40E3F1A8C65074F5C7B5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21EF238F7E885A3C24F76D9 /* Pods.framework */; };
+		90124E341C7AA9F6002D07BC /* ReactNativeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90124E331C7AA9F6002D07BC /* ReactNativeContainerViewController.m */; };
 		9033CEDA1C79022900D8FDE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CED91C79022900D8FDE1 /* main.m */; };
 		9033CEDD1C79022900D8FDE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEDC1C79022900D8FDE1 /* AppDelegate.m */; };
 		9033CEE01C79022900D8FDE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9033CEDF1C79022900D8FDE1 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90124E321C7AA9F6002D07BC /* ReactNativeContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNativeContainerViewController.h; sourceTree = "<group>"; };
+		90124E331C7AA9F6002D07BC /* ReactNativeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeContainerViewController.m; sourceTree = "<group>"; };
 		9033CED51C79022900D8FDE1 /* iOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9033CED91C79022900D8FDE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9033CEDB1C79022900D8FDE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				9033CEDC1C79022900D8FDE1 /* AppDelegate.m */,
 				9033CEDE1C79022900D8FDE1 /* ViewController.h */,
 				9033CEDF1C79022900D8FDE1 /* ViewController.m */,
+				90124E321C7AA9F6002D07BC /* ReactNativeContainerViewController.h */,
+				90124E331C7AA9F6002D07BC /* ReactNativeContainerViewController.m */,
 				9033CEE11C79022900D8FDE1 /* Main.storyboard */,
 				9033CEE41C79022900D8FDE1 /* Assets.xcassets */,
 				9033CEE61C79022900D8FDE1 /* LaunchScreen.storyboard */,
@@ -348,6 +353,7 @@
 				9033CEE01C79022900D8FDE1 /* ViewController.m in Sources */,
 				9033CEDD1C79022900D8FDE1 /* AppDelegate.m in Sources */,
 				9033CEDA1C79022900D8FDE1 /* main.m in Sources */,
+				90124E341C7AA9F6002D07BC /* ReactNativeContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
