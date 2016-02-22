@@ -8,13 +8,23 @@ import React, {
   Component,
   StyleSheet,
   Text,
-  View
+  View,
+  TouchableHighlight,
+  NativeModules
 } from 'react-native';
+
+let DismissViewControllerManager = NativeModules.DismissViewControllerManager;
 
 class SimpleApp extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <TouchableHighlight
+          onPress={this._onPress.bind(this)}>
+          <View>
+            <Text style={styles.goBackText}>Go Back</Text>
+          </View>
+        </TouchableHighlight>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
@@ -28,6 +38,9 @@ class SimpleApp extends Component {
       </View>
     );
   }
+  _onPress() {
+    DismissViewControllerManager.goBack();
+  }
 }
 
 const styles = StyleSheet.create({
@@ -36,6 +49,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+  },
+  goBackText: {
+    fontSize: 20
   },
   welcome: {
     fontSize: 20,
@@ -46,7 +62,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
-  },
+  }
 });
 
 AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
