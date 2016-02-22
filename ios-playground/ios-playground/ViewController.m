@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ReactNativeViewController.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)showReactNativeView:(id)sender {
-    
+    ReactNativeViewController *reactView = [ReactNativeViewController new];
+    [self presentViewController:reactView animated:YES completion:nil];
 }
 
 
