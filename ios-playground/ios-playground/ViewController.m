@@ -26,8 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)showReactNativeView:(id)sender {
-    ReactNativeViewController *reactView = [ReactNativeViewController new];
-    [self presentViewController:reactView animated:YES completion:nil];
+    ReactNativeViewController *reactViewController = [ReactNativeViewController new];
+    reactViewController.showScreen = @"SimpleScreen";
+    [self presentViewController:reactViewController animated:YES completion:nil];
 }
 
 
@@ -35,14 +36,13 @@
 - (IBAction)showNativeView:(id)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"NativeStoryboard" bundle:nil];
     UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"nativeViewController"];
-    ((ReactNativeViewController *)vc).showScreen = @"SimpleScreen";
     [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (IBAction)showReactNativeScrollView:(id)sender {
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"NativeStoryboard" bundle:nil];
-    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"nativeViewController"];
-    [self presentViewController:vc animated:YES completion:nil];
+    ReactNativeViewController *reactViewController = [ReactNativeViewController new];
+    reactViewController.showScreen = @"scrollViewWithDatePicker";
+    [self presentViewController:reactViewController animated:YES completion:nil];
 }
 
 @end

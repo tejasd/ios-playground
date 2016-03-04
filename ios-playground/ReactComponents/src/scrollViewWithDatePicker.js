@@ -28,7 +28,8 @@ let styles = StyleSheet.create({
   container: {
     flex: 1,
     borderColor: 'blue',
-    borderWidth: 1
+    borderWidth: 1,
+    paddingTop: 50
   },
   contentContainerStyles: {
     alignItems: 'center',

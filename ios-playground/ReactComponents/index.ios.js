@@ -25,8 +25,7 @@ const ComponentDictionary = {
 
 class SimpleApp extends Component {
   render() {
-    // let Component = ComponentDictionary[this.props.initialScreen];
-    let Component: ReactComponent = ScrollView;
+    let Component = ComponentDictionary[this.props.initialScreen];
     return (
       <Component props={{...this.props}}/>
     );
