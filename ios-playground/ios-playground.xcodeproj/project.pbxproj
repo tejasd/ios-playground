@@ -19,6 +19,7 @@
 		903F0C2A1C7AC40500F7A38F /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F0C291C7AC40500F7A38F /* NativeViewController.swift */; };
 		904995A41C7AC9B400DBB19C /* NativeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904995A31C7AC9B400DBB19C /* NativeStoryboard.storyboard */; };
 		904995AA1C7AE81B00DBB19C /* DismissViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904995A91C7AE81B00DBB19C /* DismissViewControllerManager.m */; };
+		EF796FD41C7BC04700D73B10 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF796FD31C7BC04700D73B10 /* TableViewController.swift */; };
 		F1C4FC23D35451AC6D2B1C3B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C4D653250B90C9831415BB /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		904995A81C7AE81B00DBB19C /* DismissViewControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissViewControllerManager.h; sourceTree = "<group>"; };
 		904995A91C7AE81B00DBB19C /* DismissViewControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissViewControllerManager.m; sourceTree = "<group>"; };
 		C18B5C0ADB2F2A571100FDB2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EF796FD31C7BC04700D73B10 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = swift/TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				903F0C291C7AC40500F7A38F /* NativeViewController.swift */,
+				EF796FD31C7BC04700D73B10 /* TableViewController.swift */,
 			);
 			name = swift;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903F0C2A1C7AC40500F7A38F /* NativeViewController.swift in Sources */,
+				EF796FD41C7BC04700D73B10 /* TableViewController.swift in Sources */,
 				904995AA1C7AE81B00DBB19C /* DismissViewControllerManager.m in Sources */,
 				903F0BF71C7AC00600F7A38F /* ViewController.m in Sources */,
 				903F0BF41C7AC00600F7A38F /* AppDelegate.m in Sources */,
