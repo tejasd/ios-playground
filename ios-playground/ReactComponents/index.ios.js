@@ -1,6 +1,7 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * @flow
  */
 'use strict';
 import React, {
@@ -14,55 +15,22 @@ import React, {
 } from 'react-native';
 
 let DismissViewControllerManager = NativeModules.DismissViewControllerManager;
+let SimpleScreen = require('./src/simpleScreen');
+let ScrollView = require('./src/scrollViewWithDatePicker');
+
+const ComponentDictionary = {
+  'SimpleScreen': SimpleScreen,
+  'scrollViewWithDatePicker': ScrollView
+}
 
 class SimpleApp extends Component {
   render() {
+    // let Component = ComponentDictionary[this.props.initialScreen];
+    let Component: ReactComponent = ScrollView;
     return (
-      <View style={styles.container}>
-        <TouchableHighlight
-          onPress={this._onPress.bind(this)}>
-          <View>
-            <Text style={styles.goBackText}>Go Back</Text>
-          </View>
-        </TouchableHighlight>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <Component props={{...this.props}}/>
     );
   }
-  _onPress() {
-    DismissViewControllerManager.goBack();
-  }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  goBackText: {
-    fontSize: 20
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  }
-});
 
 AppRegistry.registerComponent('SimpleApp', () => SimpleApp);

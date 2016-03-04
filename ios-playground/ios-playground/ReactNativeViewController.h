@@ -9,4 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ReactNativeViewController : UIViewController
+
+@property (nonatomic, strong) NSString *showScreen;
+
 @end

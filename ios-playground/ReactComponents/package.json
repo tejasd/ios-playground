@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ios.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "JS_DIR=`pwd`; cd node_modules/react-native; npm run start -- --root $JS_DIR"
   },
   "author": "Tejas Deshpande",
   "license": "ISC",

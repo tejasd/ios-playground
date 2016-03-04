@@ -35,6 +35,13 @@
 - (IBAction)showNativeView:(id)sender {
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"NativeStoryboard" bundle:nil];
     UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"nativeViewController"];
+    ((ReactNativeViewController *)vc).showScreen = @"SimpleScreen";
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+- (IBAction)showReactNativeScrollView:(id)sender {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"NativeStoryboard" bundle:nil];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"nativeViewController"];
     [self presentViewController:vc animated:YES completion:nil];
 }
 

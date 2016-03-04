@@ -17,13 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(goBack) name:@"dismissViewController" object:nil];
     
     NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                         moduleName: @"SimpleApp"
-                                                 initialProperties:nil
+                                                 initialProperties:@{
+                                                                     @"initialScreen": self.showScreen ?: @"SimpleScreen"
+                                                                     }
                                                      launchOptions:nil];
     [self.view addSubview:rootView];
     rootView.frame = self.view.bounds;
