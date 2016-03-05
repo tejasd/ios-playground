@@ -9,8 +9,12 @@ import React, {
   Animated,
   DatePickerIOS,
   Text,
-  StyleSheet
+  StyleSheet,
+  TouchableHighlight,
+  NativeModules
 } from 'react-native';
+
+let DismissViewControllerManager = NativeModules.DismissViewControllerManager;
 
 let scrollViewWithDatePicker = React.createClass({
   render: function() {
@@ -19,8 +23,15 @@ let scrollViewWithDatePicker = React.createClass({
         style={styles.container}
         contentContainerStyle={styles.contentContainerStyles}>
         <Text style={styles.text}>Can you see this?</Text>
+        <TouchableHighlight
+          onPress={this._onPress}>
+            <Text style={styles.goBackText}>Go Back</Text>
+        </TouchableHighlight>
       </ScrollView>
     );
+  },
+  _onPress: function() {
+    DismissViewControllerManager.goBack();
   }
 });
 
@@ -37,7 +48,10 @@ let styles = StyleSheet.create({
   },
   text: {
     fontSize: 15
-  }
+  },
+  goBackText: {
+    fontSize: 20
+  },
 });
 
 module.exports = scrollViewWithDatePicker;
