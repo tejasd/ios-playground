@@ -15,6 +15,7 @@ import React, {
 } from 'react-native';
 
 let DismissViewControllerManager = NativeModules.DismissViewControllerManager;
+let DatePickerCell = require('./DatePickerCell');
 
 let scrollViewWithDatePicker = React.createClass({
   render: function() {
@@ -27,6 +28,7 @@ let scrollViewWithDatePicker = React.createClass({
           onPress={this._onPress}>
             <Text style={styles.goBackText}>Go Back</Text>
         </TouchableHighlight>
+        <DatePickerCell />
       </ScrollView>
     );
   },
@@ -43,7 +45,7 @@ let styles = StyleSheet.create({
     paddingTop: 50
   },
   contentContainerStyles: {
-    alignItems: 'center',
+    alignItems: 'stretch',
     justifyContent: 'center'
   },
   text: {
