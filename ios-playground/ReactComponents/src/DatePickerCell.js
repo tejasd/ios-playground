@@ -26,8 +26,8 @@ let DatePickerCell = React.createClass({
         <TouchableHighlight
           onPress={() => {this.setState({showDatePicker: !this.state.showDatePicker})}}>
           <View style={styles.cellContainer}>
-            <Text>As of</Text>
-            <Text>{this.state.date.toISOString().slice(0,10).replace(/-/g,"")}</Text>
+            <Text style={styles.asOfText}>As of</Text>
+            <Text style={styles.dateText}>{this.state.date.toISOString().slice(0,10)}</Text>
           </View>
         </TouchableHighlight>
         {this._renderDatePicker()}
@@ -41,7 +41,8 @@ let DatePickerCell = React.createClass({
                 onDateChange={(newDate) => {
                   this.setState({
                     date: newDate
-                  })
+                  });
+
                 }}
                 mode={'date'}/>
             );
@@ -57,8 +58,15 @@ let styles = StyleSheet.create({
     flexDirection: 'row',
     height: 44,
     alignItems: 'center',
-    justifyContent: 'space-around',
-    backgroundColor: 'aliceblue'
+    justifyContent: 'space-between',
+    backgroundColor: 'aliceblue',
+  },
+  asOfText: {
+    paddingLeft: 10,
+    justifyContent: 'flex-start'
+  },
+  dateText: {
+    paddingRight: 10
   }
 });
 

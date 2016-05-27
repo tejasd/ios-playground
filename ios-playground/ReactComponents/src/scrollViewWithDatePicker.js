@@ -24,11 +24,11 @@ let scrollViewWithDatePicker = React.createClass({
         style={styles.container}
         contentContainerStyle={styles.contentContainerStyles}>
         <Text style={styles.text}>Can you see this?</Text>
+        <DatePickerCell />
         <TouchableHighlight
           onPress={this._onPress}>
             <Text style={styles.goBackText}>Go Back</Text>
         </TouchableHighlight>
-        <DatePickerCell />
       </ScrollView>
     );
   },

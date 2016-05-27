@@ -10,6 +10,7 @@
   "author": "Tejas Deshpande",
   "license": "ISC",
   "dependencies": {
-    "react-native": "^0.20.0"
+    "react-native": "^0.22.2",
+    "react": "^0.14.5"
   }
 }

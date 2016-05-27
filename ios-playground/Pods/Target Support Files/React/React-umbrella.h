@@ -31,6 +31,8 @@
 #import "RCTURLRequestDelegate.h"
 #import "RCTURLRequestHandler.h"
 #import "RCTUtils.h"
+#import "RCTWebSocketProxy.h"
+#import "RCTWebSocketProxyDelegate.h"
 #import "RCTJSCExecutor.h"
 #import "Layout.h"
 #import "RCTAccessibilityManager.h"
@@ -130,6 +132,7 @@
 #import "RCTTextViewManager.h"
 #import "RCTSRWebSocket.h"
 #import "RCTWebSocketExecutor.h"
+#import "RCTWebSocketManager.h"
 #import "RCTWebSocketModule.h"
 
 FOUNDATION_EXPORT double ReactVersionNumber;

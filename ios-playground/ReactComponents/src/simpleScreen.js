@@ -14,6 +14,7 @@ import React, {
 } from 'react-native';
 
 let DismissViewControllerManager = NativeModules.DismissViewControllerManager;
+let AnimatedComponent = require('./playground');
 
 class SimpleScreen extends Component {
   render() {
@@ -35,6 +36,7 @@ class SimpleScreen extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+        <AnimatedComponent />
       </View>
     );
   }
